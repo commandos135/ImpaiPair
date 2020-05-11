@@ -1,0 +1,25 @@
+
+// ConsoleApplication4.cpp : définit le point d'entrée pour l'application console.
+//
+
+#include "stdafx.h"
+#include <iostream> 
+#include <math.h> 
+using namespace std;
+
+int main()
+{
+	int x;
+
+	cout << "enter x" << endl;
+	cin >> x;
+
+	if (x%2==0) {
+
+		cout << "resultat is pair " << x << endl;
+	}
+	else cout << "resultat is impair " << x << endl;
+
+	system("pause");
+	return 0;
+}
